@@ -2,10 +2,10 @@
 This repo backs a Medium post which outlines how one could run a kubernetes job using the python client library
 
 
-##1 Create ServiceAccount and RBAC
+## 1 Create ServiceAccount and RBAC
 `kubectl apply -f ./rbac`
 
-##2 Fetch credentials
+## 2 Fetch credentials
 We need to fetch credentials to access Kubernetes cluster
 
 Set the `HOST_URL` environmental variable to the result (https://x.x.x.x) from running:
